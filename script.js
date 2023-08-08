@@ -1,10 +1,13 @@
 function Listitem() {
   return (
-    <ul>
-      <li>Tomatoes</li>
-      <li>Potatoes</li>
-      <li>Mangies</li>
-    </ul>
+    <nav>
+      <h1>website</h1>
+      <ul>
+        <li>Pricing</li>
+        <li>About</li>
+        <li>Contact </li>
+      </ul>
+    </nav>
   );
 }
 ReactDOM.render(
@@ -13,3 +16,6 @@ ReactDOM.render(
   </div>,
   document.getElementById("header")
 );
+
+// const learn = document.getElementById("header");
+// learn.innerHTML = "<h1>" + "hello, i am learning React" + "</h1>";
