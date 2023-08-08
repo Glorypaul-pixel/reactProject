@@ -1,7 +1,7 @@
 function Listitem() {
   return (
     <nav>
-      <h1>website</h1>
+      <h1>Using function</h1>
       <ul>
         <li>Pricing</li>
         <li>About</li>
@@ -17,5 +17,15 @@ ReactDOM.render(
   document.getElementById("header")
 );
 
-// const learn = document.getElementById("header");
-// learn.innerHTML = "<h1>" + "hello, i am learning React" + "</h1>";
+const navbar = (
+  <nav>
+    <h1>Using const</h1>
+    <ul>
+      <li>Menu</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+);
+
+ReactDOM.render(navbar, document.getElementById("root"));
